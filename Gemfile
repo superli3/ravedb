@@ -12,6 +12,13 @@ gem 'rails', '~> 5.1.4'
 # Bcrypt for password encryption
 gem 'bcrypt',         '3.1.11'
 
+# Populate user DB with fake users with faker gem
+gem 'faker',          '1.7.3'
+
+# Gems for pagination
+gem 'will_paginate',           '3.1.6'
+gem 'bootstrap-will_paginate', '1.0.0'
+
 # Gem for Bootstrap
 gem 'bootstrap-sass', '3.3.7'
 # Use sqlite3 as the database for Active Record
